@@ -89,7 +89,7 @@ transform: scale(1.1);
 .text2{
     position: absolute;
     width: 20vw;
-    top: 95vw;
+    top: 94vw;
     left:70vw;
     object-fit: contain;
 }
