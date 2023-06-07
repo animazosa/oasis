@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/pagetwo/pagetwo.css">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Poppins:ital@0;1&display=swap');
+    body {
+            font-family: 'Goldman';
+            font-family: 'Poppins';
+             }
+    </style>  
+</head>
+<body>
+
+    <div class="container">
+
+        <img src="/images/macbookglobe.png" data-value="0" class="hintergrund" alt="">
+        <img src="/images/star3.png" class="star3" data-value="-20" alt="">
+        <img src="/images/distractedglobe.png" class="globe" data-value="3" alt="">
+        <img src="/images/star1.png" class="star1" data-value="10" alt="">
+        <img src="/images/star2.png" class="star2" data-value="15" alt="">
+        <img src="/images/2-text1.png" class="text1" data-value="1" alt="">
+        <img src="/images/2-text2.png" class="text2" data-value="-1" alt="">
+        <img src="/images/astronaut.png" class="astronaut" data-value="10" alt="">
+        <img src="/images/arcade.png" class="arcade" data-value="3" alt="">
+        <img src="/images/star1.png" class="star4" data-value="10" alt="">
+        <img src="/images/star2.png" class="star5" data-value="-7" alt="">
+        <img src="/images/star3.png" class="star6" data-value="-10" alt="">
+        <img src="/images/star1.png" class="star7" data-value="-7" alt="">
+        <img src="/images/star2.png" class="star8" data-value="10" alt="">
+        <div class="bild1" ><img src="/images/globepink-02.png" alt="bild1" onclick="opennav()"></div>
+    </div>
+
+
+    <div class="main" id="main">
+        <div class="close"><img src="/images/closewhite.png" onclick="closenav()"></div>
+        <div class="navigation-circle">
+            <div class="navigation-circle__inner"><svg class="navigation-circle-svg navigation-circle-svg--opaque" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewbox="0 0 320 320" style="enable-background:new 0 0 320 320">
+                    <circle cx="160" cy="160" r="158" fill="none" stroke-width="1" stroke="rgb(239, 239, 239)" stroke-linecap="round" stroke-miterlimit="10" style="stroke-dashoffset: 0; stroke-dasharray: none"></circle>
+                </svg><svg class="navigation-circle-svg navigation-circle-svg--mask" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewbox="0 0 320 320" style="enable-background:new 0 0 320 320">
+                    <circle id="mask-circle" cx="160" cy="160" r="158" fill="none" stroke-width="2" stroke="rgb(239, 239, 239)" stroke-linecap="round" stroke-miterlimit="10" style="stroke-dasharray:1005.3088px;"></circle>
+                </svg>
+                <ul class="navigation-circle__list">
+                    <li class="navigation-circle-list-item"><a class="navigation-circle-list-item__point" href="/pageone/pageone.html" onmouseenter="calculateOffset(2)" onMouseLeave="onMouseLeave()">
+                        <div class="navigation-circle-list-item__meta">
+                            <h3 class="navigation-circle-list-item__title">Racetrack</h3>
+                            <h4 class="navigation-circle-list-item__subtitle">Hot Wheels presents</h4>
+                        </div>
+                        </a></li>
+                        <li class="navigation-circle-list-item"><a class="navigation-circle-list-item__point" href="/pagetwo/pagetwo.html" onmouseenter="calculateOffset(2)" onMouseLeave="onMouseLeave()">
+                            <div class="navigation-circle-list-item__meta">
+                                <h3 class="navigation-circle-list-item__title">Distracted Globe</h3>
+                                <h4 class="navigation-circle-list-item__subtitle">The no gravity zone</h4>
+                            </div>
+                        </a></li>
+                        <li class="navigation-circle-list-item"><a class="navigation-circle-list-item__point" href="/pagethree/pagethree.html" onmouseenter="calculateOffset(3)" onMouseLeave="onMouseLeave()">
+                            <div class="navigation-circle-list-item__meta">
+                                <h3 class="navigation-circle-list-item__title">Planet Doom</h3>
+                                <h4 class="navigation-circle-list-item__subtitle">Kill your friend, get that bread</h4>
+                            </div>
+                        </a></li>
+                    <li class="navigation-circle-list-item"><a class="navigation-circle-list-item__point" onclick="onClick(4)" onmouseenter="calculateOffset(4)" onMouseLeave="onMouseLeave()">
+                            <div class="navigation-circle-list-item__meta">
+                                <h3 class="navigation-circle-list-item__title">Item #4</h3>
+                                <h4 class="navigation-circle-list-item__subtitle">It just goes round and round</h4>
+                            </div>
+                        </a></li>
+                    <li class="navigation-circle-list-item"><a class="navigation-circle-list-item__point" onclick="onClick(5)" onmouseenter="calculateOffset(5)" onMouseLeave="onMouseLeave()">
+                            <div class="navigation-circle-list-item__meta">
+                                <h3 class="navigation-circle-list-item__title">Item #5</h3>
+                                <h4 class="navigation-circle-list-item__subtitle">It just goes round and round</h4>
+                            </div>
+                        </a></li>
+                    <li class="navigation-circle-list-item"><a class="navigation-circle-list-item__point" onclick="onClick(6)" onmouseenter="calculateOffset(6)" onMouseLeave="onMouseLeave()">
+                            <div class="navigation-circle-list-item__meta">
+                                <h3 class="navigation-circle-list-item__title">Item #6</h3>
+                                <h4 class="navigation-circle-list-item__subtitle">It just goes round and round</h4>
+                            </div>
+                        </a></li>
+                        <li class="navigation-circle-list-item"><a class="navigation-circle-list-item__point" href="/main.html" onmouseenter="calculateOffset(1)" onMouseLeave="onMouseLeave()">
+                            <div class="navigation-circle-list-item__meta">
+                                <h3 class="navigation-circle-list-item__title">HOME</h3>
+                                <h4 class="navigation-circle-list-item__subtitle">Go back where you came from</h4>
+                            </div>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="/pagetwo/pagetwo.js"></script>
+    <script src="/js.js"></script>
+</body>
+</html>

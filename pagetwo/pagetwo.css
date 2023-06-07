@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+}
+
+.container{
+    position: relative;
+    width: 100vw;
+    height: 180vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.bild1{
+    overflow: hidden;
+    position: absolute;
+    top:1vw;
+    left:93vw;
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.bild1 img{
+    width: 5vw;
+}
+
+.bild1:hover {
+-ms-transform: scale(1.1);
+-webkit-transform: scale(1.1); 
+transform: scale(1.1); 
+}
+
+
+.hintergrund{
+    position: absolute;
+    width: 100vw;
+    top: -3;
+    left:0;
+    object-fit: contain;
+}
+
+.globe{
+    position: absolute;
+    width: 40vw;
+    top: 19vw;
+    left:30vw;
+    object-fit: contain;
+}
+
+.star1{
+    position: absolute;
+    width: 3vw;
+    top: 19vw;
+    left:20vw;
+    object-fit: contain;
+}
+
+.star2{
+    position: absolute;
+    width: 3vw;
+    top: 40vw;
+    left:75vw;
+    object-fit: contain;
+}
+.star3{
+    position: absolute;
+    width: 2vw;
+    top: 50vw;
+    left:25vw;
+    object-fit: contain;
+}
+
+.text1{
+    position: absolute;
+    width: 20vw;
+    top: 85vw;
+    left:12vw;
+    object-fit: contain;
+}
+
+.text2{
+    position: absolute;
+    width: 20vw;
+    top: 95vw;
+    left:70vw;
+    object-fit: contain;
+}
+
+.astronaut{
+    position: absolute;
+    width: 27vw;
+    top: 98vw;
+    left:12vw;
+    object-fit: contain;
+}
+
+.arcade{
+    position: absolute;
+    width: 25vw;
+    top: 105vw;
+    left:75vw;
+    object-fit: contain;
+}
+
+.star4{
+    position: absolute;
+    width: 2.5vw;
+    top: 80vw;
+    left:55vw;
+    object-fit: contain;
+}
+
+.star5{
+    position: absolute;
+    width: 3vw;
+    top: 120vw;
+    left:7vw;
+    object-fit: contain;
+}
+
+.star6{
+    position: absolute;
+    width: 2vw;
+    top: 110vw;
+    left:70vw;
+    object-fit: contain;
+}
+
+.star7{
+    position: absolute;
+    width: 4vw;
+    top: 145vw;
+    left:10vw;
+    object-fit: contain;
+}
+
+.star8{
+    position: absolute;
+    width: 2vw;
+    top: 150vw;
+    left:80vw;
+    object-fit: contain;
+}

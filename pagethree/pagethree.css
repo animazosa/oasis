@@ -1,0 +1,129 @@
+body{
+    background-color:rgb(20, 20, 20);
+    height:100%;
+    margin: 0px;
+}
+
+.grid-containertitel{
+    display:grid;
+    grid-template-columns: repeat(12, 8.33vw);
+    grid-template-rows: repeat(40, 4.165vw);
+}
+
+
+.grid-containertitel > div {
+    font-size: 2vw;
+  }
+
+.bild1{
+    grid-column: 12/13;
+    grid-row: 2; 
+    text-align: center;
+    margin-top: -3vw;
+}
+        
+.bild1 img{
+    width: 50%;
+    padding-bottom: 30px;
+    z-index: 9999;
+
+}
+
+
+.hintergrund{
+    grid-column: 1/13;
+    grid-row: 1; 
+    text-align: center;
+}
+        
+.hintergrund img{
+    width: 100%;
+    z-index: 1;
+
+}
+
+
+
+.cross{
+    grid-column: 2;
+    grid-row: 4; 
+    text-align: center;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: step-start;
+
+}
+
+.cross img{
+    width: 4vw;
+    z-index: 9999;
+
+}
+
+.cross1 {
+    margin-top: 5vw;
+    animation-name: blink-animation-1;
+}
+@keyframes blink-animation-1 {
+    0% {
+        opacity: 1;
+    }
+    20% {
+        opacity:0;
+    }
+    40% {
+        opacity:1;
+    }
+}
+
+.cross2{
+    margin-top: 10vw;
+    animation-name: blink-animation-2;
+}
+@keyframes blink-animation-2 {
+    40% {
+        opacity:1;
+    }
+    60% {
+        opacity:0;
+    }
+    80% {
+        opacity:1;
+    }
+
+}
+
+.cross3{
+    margin-top: 15vw;
+    animation-name: blink-animation-3;
+}
+@keyframes blink-animation-3 {
+    60% {
+        opacity:1;
+    }
+    80% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+.cross4{
+    margin-top: 20vw;
+    animation-name: blink-animation-4;
+}
+
+@keyframes blink-animation-4 {
+    20% {
+        opacity:1;
+    }
+    40% {
+        opacity:0;
+    }
+    60% {
+        opacity:1;
+    }
+}
+
+
